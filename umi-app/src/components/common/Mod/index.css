@@ -1,0 +1,69 @@
+.mod-list h2{
+    position: relative;
+    width: 784px;
+}
+
+.mod-list h2 .more{
+    position: absolute;
+    right: 0;
+    top: 12px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+    cursor: pointer;
+}
+
+.mod-list h2 .more.hidden{
+    display: none;
+}
+
+.mod-list .more::after{
+    content: ">";
+}
+
+.mod-list .more:hover{
+    color: rgb(241, 112, 125);
+}
+
+.mod-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+
+.mod-item {
+    position: relative;
+}
+
+.mod-item .figure{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 8px;
+}
+
+.mod-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.mod-item .author {
+    position: absolute;
+    bottom: 7px;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    width: 100%;
+}
+
+.mod-item .author span{
+    text-align: center;
+    display: block;
+    flex: 1;
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    font-weight: 800;
+}

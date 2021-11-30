@@ -1,0 +1,33 @@
+.more {
+    width: 820px;
+    margin: 40px auto;
+}
+
+.more-nav {
+    display: flex;
+}
+
+.more-nav .type {
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.more-nav .type.active {
+    color: rgb(241, 112, 125);
+}
+
+.more-nav .type:hover {
+    color: rgb(241, 112, 125);
+}
+
+.mod-list{
+    margin-top: 12px;
+}
+
+.mod-list .mod-item {
+    display: none;
+}
+
+.mod-list .mod-item.show {
+    display: block;
+}

@@ -1,0 +1,14 @@
+.slider-container {
+    width: 240px;
+    border-radius: 12px 0 0 12px;
+    box-sizing: border-box;
+    padding: 24px 12px 12px 30px;
+    color: #ccc;
+    background: rgba(0, 0, 0, .3);
+}
+
+.slider-container .slider-list {
+    height: 28px;
+    line-height: 28px;
+    margin: 12px 0;
+}

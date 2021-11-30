@@ -1,0 +1,29 @@
+.news {
+    padding-top: 12px;
+}
+
+.news li{
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.news li .number{
+    font-size: 14px;
+    color: #999;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.news li .number.on{
+    background: rgb(241, 112, 125);
+    color: #fff;
+}

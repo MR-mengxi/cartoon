@@ -1,0 +1,28 @@
+.cartoon{
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.cartoon-title{
+    position: relative;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.cartoon-title .more{
+    position: absolute;
+    font-size: 14px;
+    top: 24px;
+    right: 0;
+    cursor: pointer;
+    color: #999;
+}
+
+.cartoon-title .more::after{
+    content: ">";
+    padding-left: 4px;
+}
+
+.cartoon-title .more:hover{
+    color: rgb(241, 112, 125);
+}

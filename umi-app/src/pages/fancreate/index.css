@@ -1,0 +1,33 @@
+.fancreate-container{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.fancreate-main{
+    height: 100%;
+   background: rgba(255,255,255,0.8);
+   box-shadow: 0 2px 4px 0 rgb(0,0,0,.3);
+
+}
+
+.fancreate-main ul{
+    padding-top: 20px;
+}
+
+.fancreate-main ul li{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: #6b9eee;
+}
+
+
+.fancreate-right{
+    height: 300px;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,.3);
+    margin-top: 20px;
+}

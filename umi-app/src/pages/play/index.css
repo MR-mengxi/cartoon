@@ -1,0 +1,28 @@
+.play {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.play-list .play-title {
+    position: relative;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.play-list .play-title .more {
+    position: absolute;
+    font-size: 14px;
+    top: 24px;
+    right: 0;
+    cursor: pointer;
+    color: #999;
+}
+
+.play-list .play-title .more::after {
+    content: ">";
+    padding-left: 4px;
+}
+
+.play-list .play-title .more:hover {
+    color: rgb(241, 112, 125);
+}

@@ -1,0 +1,53 @@
+.login-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #6b9eee;
+}
+
+.login {
+    width: 350px;
+    margin: 40px auto;
+    padding: 15px;
+}
+
+.login-item {
+    width: 266px;
+    display: flex;
+    margin: 12px auto;
+    padding: 12px 0;
+}
+
+label {
+    width: 70px;
+    color: #fff;
+    line-height: 40px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px dashed #b4b8bc;
+    outline: none;
+    color: #373737;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 0 15px;
+    height: 40px;
+}
+
+.login-item button {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 34px;
+    color: #fff;
+    border-radius: 4px;
+    background: rgb(241, 112, 125);
+    margin: 0 auto;
+}

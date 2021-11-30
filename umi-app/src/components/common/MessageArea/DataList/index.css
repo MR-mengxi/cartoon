@@ -1,0 +1,16 @@
+.comment-container {
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.comment-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.comment-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

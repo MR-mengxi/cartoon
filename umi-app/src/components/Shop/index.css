@@ -1,0 +1,64 @@
+.shop-list {
+    margin: 0 auto;
+}
+
+.shop-list .shop-card {
+    width: 272px;
+    height: 360px;
+    margin: 0 24px 24px 0;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0,0,0,.1);
+    overflow: hidden;
+    float: left;
+}
+
+.shop-list::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.shop-list .shop-card:nth-child(4n){
+    margin-right: 0;
+}
+
+.shop-list .shop-card .shop-card-img{
+    margin-bottom: 4px;
+    box-sizing: border-box;
+}
+
+.shop-list .shop-card .shop-card-img img{
+    display: block;
+}
+
+.shop-list .shop-card .shop-card-desc {
+    height: 40px;
+    width: 248px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shop-list .shop-card .shop-card-price{
+    display: flex;
+    height: 20px;
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.shop-list .shop-card .shop-card-price .shop-card-price-unit {
+    font-size: 14px;
+    color: rgb(241, 112, 125);
+    padding-top: 3px;
+    line-height: 22px;
+}
+
+.shop-list .shop-card .shop-card-price .shop-card-price-val{
+    font-size: 22px;
+    color: rgb(241, 112, 125);
+    line-height: 22px;
+}

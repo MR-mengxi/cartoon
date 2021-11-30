@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background: #a8456b;
+    overflow: hidden;
+}
+
+.content {
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.title img{
+    width: 100px;
+}
+
+.search {
+    padding-top: 14px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    padding: 9px 38px 9px 16px;
+    border-radius: 16px;
+    height: 32px;
+}
+
+.login {
+    margin-left: 30px;
+}
+
+.login a {
+    color: #fff;
+}
+
+.login span {
+    padding: 0 5px;
+    color: rgb(241, 112, 125);
+}
