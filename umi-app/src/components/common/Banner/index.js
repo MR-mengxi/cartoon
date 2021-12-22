@@ -12,13 +12,13 @@ export default class Banner extends Component {
         imgSrcs: [],
         autoDuration: 5000,
         duration: 500,
-        style: {}
+        isShow: false
     }
 
     static propTypes = {
         width: PropTypes.number.isRequired,
         height: PropTypes.number.isRequired,
-        imgSrcs: PropTypes.arrayOf(PropTypes.object).isRequired,
+        imgSrcs: PropTypes.array.isRequired,
         autoDuration: PropTypes.number.isRequired,
         duration: PropTypes.number.isRequired
     }
@@ -79,7 +79,6 @@ export default class Banner extends Component {
             <div className="banner-container" style={{
                 width: this.props.width,
                 height: this.props.height,
-                ...this.props.style
             }}
                 onMouseEnter={() => {
                     clearInterval(this.timer);
@@ -95,7 +94,7 @@ export default class Banner extends Component {
                     imgSrcs={this.props.imgSrcs}
                     duration={this.props.duration}
                 />
-                <SwitchArrow onChange={this.handleArrowChange} />
+                <SwitchArrow onChange={this.handleArrowChange}  isShow={this.props.isShow} />
                 <SwitchDot
                     total={this.props.imgSrcs.length}
                     curIndex={this.state.curIndex}

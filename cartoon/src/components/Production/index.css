@@ -1,0 +1,29 @@
+.pro-container{
+    display: flex;
+}
+.pro-item{
+    display: flex;
+}
+.pro-item a{
+    margin-right: 12px;
+}
+
+.pro-item img{
+    border-radius: 5px;
+}
+
+.pro-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pro-title{
+    font-size: 14px;
+    color: #333;
+}
+
+.pro-time{
+    font-size: 12px;
+    color: #F1707D;
+}

@@ -15,10 +15,6 @@
     font-size: 14px;
 }
 
-.nav-list li .active {
-    color: rgb(241, 112, 125);
-}
-
-.nav-list li:hover a {
-    color: rgb(241, 112, 125);
+.current {
+    /* color: rgb(241, 112, 125); */
 }

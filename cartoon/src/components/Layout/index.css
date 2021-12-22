@@ -1,0 +1,12 @@
+.layout-container {
+    display: flex;
+}
+
+.main {
+    order: 1;
+    flex: 1 1 auto;
+}
+
+.right {
+    order: 2;
+}

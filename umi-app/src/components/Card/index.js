@@ -3,15 +3,20 @@ import styles from './index.css'
 
 export default function Card(props) {
 
+    // const cards = props.cards.map((card, i) => (
+    //     <li className={styles["card-item"]} key={card.id}>
+    //         <div className={styles["card-img"]}>
+    //             <img src={card.bg} alt="" />
+    //         </div>
+    //         <div className={styles["card-right"]}>
+    //             <span className={styles["card-title"]}>{card.title}</span>
+    //             <p className={styles["card-subTitle"]}>{card.subTitle}</p>
+    //         </div>
+    //     </li>
+    // ))
     const cards = props.cards.map((card, i) => (
-        <li className={styles["card-item"]} key={card.id}>
-            <div className={styles["card-img"]}>
-                <img src={card.bg} alt="" />
-            </div>
-            <div className={styles["card-right"]}>
-                <span className={styles["card-title"]}>{card.title}</span>
-                <p className={styles["card-subTitle"]}>{card.subTitle}</p>
-            </div>
+        <li className={styles["card-item"]} key={i}>
+            <img src={card.src} alt="" />
         </li>
     ))
     return (

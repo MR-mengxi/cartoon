@@ -1,0 +1,16 @@
+{
+  "id": "2798872",
+  "name": "动漫",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4562857",
+      "name": "铃铛",
+      "font_class": "lingdang1",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    }
+  ]
+}

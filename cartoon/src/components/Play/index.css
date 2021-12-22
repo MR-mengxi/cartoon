@@ -1,0 +1,27 @@
+.play-container{
+    width: 990px;
+    margin: 0 auto;
+}
+
+.play-content{
+    padding: 20px;
+}
+
+.play-t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-title{
+    font-size: 20px;
+}
+
+.play-t .more{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.play-t .more:hover{
+    color: rgb(9, 109, 217);
+}

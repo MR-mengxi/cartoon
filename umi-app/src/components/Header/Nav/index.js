@@ -6,7 +6,7 @@ export default class nav extends Component {
     render() {
         const lis = this.props.nav.map(item => (
             <li key={item.id}>
-                <NavLink activeClassName="active" exact to={item.to}>
+                <NavLink activeClassName="current" exact to={item.to}>
                     {item.navTitle}
                 </NavLink>
             </li>))
@@ -16,7 +16,6 @@ export default class nav extends Component {
                     {lis}
                 </ul>
             </div>
-
         )
     }
 }

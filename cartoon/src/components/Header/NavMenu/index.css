@@ -1,0 +1,17 @@
+.nav-menu-ul {
+    color: #fff;
+    margin: 0 12px;
+}
+
+.nav-menu-ul .nav-menu-item {
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.nav-menu-ul .nav-menu-item a.selected {
+    color: #096dd9;
+}
+
+.nav-menu-ul .nav-menu-item a:hover {
+    color: #096dd9;
+}

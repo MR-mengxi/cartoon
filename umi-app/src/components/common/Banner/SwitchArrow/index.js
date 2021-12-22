@@ -4,11 +4,12 @@ import PropTypes from 'prop-types'
 
 export default class SwitchArrow extends Component {
     static propTypes = {
-        onChange: PropTypes.func
+        onChange: PropTypes.func,
+        isShow: PropTypes.bool
     }
     render() {
         return (
-            <div className="arrow">
+            <div className={this.props.isShow ? "arrow" : "hidden"}>
                 <span className="left" onClick={() => {
                     this.props.onChange && this.props.onChange("left")
                 }}>

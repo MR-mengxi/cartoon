@@ -6,7 +6,7 @@ export default class ImgContainer extends Component {
     static propTypes = {
         imgWidth: PropTypes.number.isRequired,
         imgHeight: PropTypes.number.isRequired,
-        imgSrcs: PropTypes.arrayOf(PropTypes.object).isRequired,
+        imgSrcs: PropTypes.array.isRequired,
         duration: PropTypes.number.isRequired
     }
 
@@ -52,7 +52,7 @@ export default class ImgContainer extends Component {
     }
 
     render() {
-        const imgs = this.props.imgSrcs.map((src, i) => <img src={src.img} key={i} alt="" style={{
+        const imgs = this.props.imgSrcs.map((src, i) => <img src={src} key={i} alt="" style={{
             width: this.props.imgWidth,
             height: this.props.imgHeight,
             float: "left"

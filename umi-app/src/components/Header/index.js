@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Nav from './Nav'
 import styles from './index.css'
-import logo from '../../assets/src/logo.png'
 import { Link } from 'umi'
 
 export default class Header extends Component {
@@ -10,8 +9,7 @@ export default class Header extends Component {
             <div className={styles.header}>
                 <div className={styles.content}>
                     <h1 className={styles.title}>
-                        {/* LOGO */}
-                        <img src={logo} alt="" />
+                        也子
                     </h1>
                     <Nav nav={this.props.nav} />
                     <div className={styles.search}>
@@ -26,5 +24,4 @@ export default class Header extends Component {
             </div>
         )
     }
-
 }
