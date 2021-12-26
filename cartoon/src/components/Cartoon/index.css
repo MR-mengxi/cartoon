@@ -1,0 +1,16 @@
+@import '//at.alicdn.com/t/font_2798872_ft65u0qy0o.css';
+
+.cartoon-t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cartoon-title {
+    font-size: 20px;
+}
+
+.more {
+    font-size: 12px;
+}

@@ -3,29 +3,53 @@ import PropTypes from 'prop-types'
 import './index.css'
 
 export default class Layout extends Component {
+    static defaultProps = {
+        showContainer: true
+    }
     static propTypes = {
-        minWidth: PropTypes.number.isRequired,
-        mainWidth: PropTypes.number.isRequired,
-        rightWidth: PropTypes.number.isRequired,
-        main: PropTypes.element.isRequired,
-        right: PropTypes.element.isRequired
+        // minWidth: PropTypes.number.isRequired,
+        // mainWidth: PropTypes.number.isRequired,
+        // rightWidth: PropTypes.number.isRequired,
+        // main: PropTypes.element.isRequired,
+        // right: PropTypes.element.isRequired
     }
     render() {
-        return (
-            <div className='layout-container' style={{
-                width: this.props.minWidth
-            }}>
-                <div className="main" style={{
-                    width: this.props.mainWidth,
+        if (this.props.showContainer) {
+            return (
+                <div className='layout' style={{
+                    width: this.props.minWidth,
+                    margin: "0 auto 40px"
                 }}>
-                    {this.props.main}
+                    <div className="main" style={{
+                        width: this.props.mainWidth,
+                    }}>
+                        {this.props.main}
+                    </div>
+                    <div className="right" style={{
+                        width: this.props.rightWidth
+                    }}>
+                        {this.props.right}
+                    </div>
                 </div>
-                <div className="right" style={{
-                    width: this.props.rightWidth
+            )
+        }
+        else {
+            return (
+                <div className='layout' style={{
+                    width: this.props.minWidth
                 }}>
-                    {this.props.right}
+                    <div className="main" style={{
+                        width: this.props.mainWidth,
+                    }}>
+                        {this.props.main}
+                    </div>
+                    <div className="right" style={{
+                        width: this.props.rightWidth
+                    }}>
+                        {this.props.right}
+                    </div>
                 </div>
-            </div>
-        )
+            )
+        }
     }
 }

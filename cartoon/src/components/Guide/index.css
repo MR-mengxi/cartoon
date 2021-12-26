@@ -1,10 +1,6 @@
 .guide-container {
     width: 990px;
-    margin: 20px auto;
-}
-
-.guide-show {
-    padding: 20px;
+    margin: 20px auto 40px;
 }
 
 .guide-t {
@@ -38,6 +34,7 @@
 
 .guide-b {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -55,7 +52,7 @@
 }
 
 .guide-list-ul {
-    width: 500px;
+    width: 520px;
     height: 260px;
     padding-left: 15px;
     box-sizing: border-box;

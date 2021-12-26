@@ -1,16 +1,10 @@
-.play-container{
-    width: 990px;
-    margin: 0 auto;
-}
-
-.play-content{
-    padding: 20px;
-}
+@import '//at.alicdn.com/t/font_2798872_ft65u0qy0o.css';
 
 .play-t{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .play-title{
@@ -24,4 +18,29 @@
 
 .play-t .more:hover{
     color: rgb(9, 109, 217);
+}
+
+.play-t .more .icon-gengduo{
+    font-size: 12px;
+}
+
+.play-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.play-item{
+    width: 170px;
+    margin-bottom:20px;
+}
+
+.play-item a{
+    width: 100%;
+    display: block;
+}
+
+.play-item img{
+    width: 100%;
+    height: 100%;
 }
