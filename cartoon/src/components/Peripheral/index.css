@@ -1,21 +1,20 @@
 @import '//at.alicdn.com/t/font_2798872_ft65u0qy0o.css';
 
-.cartoon-t {
+.peripheral-t{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.cartoon-title {
+.peripheral-title{
     font-size: 20px;
 }
 
-.cartoon-t .more {
+.peripheral-t .more{
     font-size: 12px;
-    cursor: pointer;
 }
 
-.cartoon-t .more:hover{
-    color: rgb(9, 109, 217);
+.peripheral-t .icon-gengduo{
+    font-size: 12px;
 }

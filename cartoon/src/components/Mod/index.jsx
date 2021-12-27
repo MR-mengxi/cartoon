@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styles from './index.css'
 
-export default class Production extends Component {
+export default class Mod extends Component {
     static defaultProps = {
         width: 72,
         height: 72,
-        marginRight: 88,
+        marginRight: 82,
         marginBottom: 34,
         data: [],
     }
@@ -20,26 +20,26 @@ export default class Production extends Component {
     }
 
     render() {
-        const lis = this.props.data.map((pro, i) => (
-            <li className={styles['pro-item']} key={i} style={{
+        const mods = this.props.data.map((mod, i) => (
+            <li className={styles['mod-item']} key={i} style={{
                 marginRight: this.props.marginRight,
                 marginBottom: this.props.marginBottom
             }}>
                 <a href="">
-                    <img src={pro.thumb} alt="" style={{
+                    <img src={mod.thumb} alt="" style={{
                         width: this.props.width,
                         height: this.props.height
                     }} />
                 </a>
-                <div className={styles['pro-info']}>
-                    <p className={styles['pro-title']}>{pro.title}</p>
-                    <p className={styles['pro-time']}>{pro.time}</p>
+                <div className={styles['mod-info']}>
+                    <p className={styles['mod-title']}>{mod.title}</p>
+                    <p className={styles['mod-time']}>{mod.time}</p>
                 </div>
             </li>
         ))
         return (
-            <ul className={styles['pro-container']}>
-                {lis}
+            <ul className={styles['mod-container']}>
+                {mods}
             </ul>
         )
     }

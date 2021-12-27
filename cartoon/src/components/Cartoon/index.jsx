@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Layout from '@/components/Layout'
+import ModTest from '@/components/Mod/ModTest'
 import RankTest from '@/components/Rank/RankTest'
 import styles from './index.css'
 
@@ -10,17 +11,17 @@ export default class Cartoon extends Component {
                 <div className={styles["cartoon-content"]}>
                     <div className={styles["cartoon-t"]}>
                         <div className={styles["cartoon-title"]}>
-                            <h2>动漫</h2>
+                            <h2>漫画</h2>
                         </div>
                         <div className={styles["more"]}>
                             更多
                             <i className="iconfont icon-gengduo" style={{
-                                fontSize:12
+                                fontSize: 12
                             }}></i>
                         </div>
                     </div>
                     <div className="cartoon-b">
-
+                        <ModTest />
                     </div>
                 </div>
             </div>
