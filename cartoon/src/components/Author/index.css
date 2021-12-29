@@ -1,0 +1,38 @@
+.author-header{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.author-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-item{
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author-item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.avatar{
+    margin-bottom: 10px;
+}
+
+.sign{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sign button{
+    font-weight: inherit;
+}

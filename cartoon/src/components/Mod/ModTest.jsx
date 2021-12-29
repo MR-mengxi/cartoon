@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import Mod from '.'
-import src1 from '@/assets/mod/1.webp'
-import src2 from '@/assets/mod/2.webp'
-import src3 from '@/assets/mod/3.webp'
-import src4 from '@/assets/mod/4.webp'
-import src5 from '@/assets/mod/5.webp'
-import src6 from '@/assets/mod/6.webp'
-import src7 from '@/assets/mod/7.webp'
-import src8 from '@/assets/mod/8.webp'
+import src1 from '@/assets/img/mod/1.webp'
+import src2 from '@/assets/img/mod/2.webp'
+import src3 from '@/assets/img/mod/3.webp'
+import src4 from '@/assets/img/mod/4.webp'
+import src5 from '@/assets/img/mod/5.webp'
+import src6 from '@/assets/img/mod/6.webp'
+import src7 from '@/assets/img/mod/7.webp'
+import src8 from '@/assets/img/mod/8.webp'
 
 export default class ModTest extends Component {
     state = {

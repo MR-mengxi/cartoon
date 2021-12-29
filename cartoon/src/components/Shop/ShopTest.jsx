@@ -4,6 +4,7 @@ import src1 from '@/assets/shop/1.png'
 import src2 from '@/assets/shop/2.png'
 import src3 from '@/assets/shop/3.png'
 import src4 from '@/assets/shop/4.png'
+import src5 from '@/assets/shop/5.png'
 
 export default class ShopTest extends Component {
     state = {
@@ -12,6 +13,7 @@ export default class ShopTest extends Component {
             { id: 2, src: src2, desc: "小书包", val: "59" },
             { id: 3, src: src3, desc: "小书包", val: "59" },
             { id: 4, src: src4, desc: "小书包", val: "59" },
+            { id: 5, src: src5, desc: "小书包", val: "59" },
         ]
     }
     render() {

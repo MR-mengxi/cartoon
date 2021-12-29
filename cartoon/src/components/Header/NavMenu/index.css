@@ -1,6 +1,7 @@
 .nav-menu-ul {
     color: #fff;
     margin: 0 12px;
+    display: flex;
 }
 
 .nav-menu-ul .nav-menu-item {

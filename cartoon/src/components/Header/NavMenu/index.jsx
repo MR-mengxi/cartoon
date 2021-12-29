@@ -19,7 +19,7 @@ export default class NavMenu extends Component {
             </li>
         ))
         return (
-            <ul className='nav-menu-ul flex'>
+            <ul className='nav-menu-ul'>
                 {menu}
             </ul>
         )

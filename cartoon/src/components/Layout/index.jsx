@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import './index.css'
+import styles from  './index.css'
 
 export default class Layout extends Component {
     static defaultProps = {
@@ -16,16 +16,16 @@ export default class Layout extends Component {
     render() {
         if (this.props.showContainer) {
             return (
-                <div className='layout' style={{
+                <div className={styles['layout']} style={{
                     width: this.props.minWidth,
                     margin: "0 auto 40px"
                 }}>
-                    <div className="main" style={{
+                    <div className={styles["main"]} style={{
                         width: this.props.mainWidth,
                     }}>
                         {this.props.main}
                     </div>
-                    <div className="right" style={{
+                    <div className={styles["right"]} style={{
                         width: this.props.rightWidth
                     }}>
                         {this.props.right}
@@ -35,15 +35,15 @@ export default class Layout extends Component {
         }
         else {
             return (
-                <div className='layout' style={{
+                <div className={styles['layout']} style={{
                     width: this.props.minWidth
                 }}>
-                    <div className="main" style={{
+                    <div className={styles["main"]} style={{
                         width: this.props.mainWidth,
                     }}>
                         {this.props.main}
                     </div>
-                    <div className="right" style={{
+                    <div className={styles["right"]} style={{
                         width: this.props.rightWidth
                     }}>
                         {this.props.right}

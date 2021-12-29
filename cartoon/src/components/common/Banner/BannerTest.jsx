@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Banner from '.'
-import src1 from '@/assets/banner/1.jpg'
-import src2 from '@/assets/banner/2.jpg'
-import src3 from '@/assets/banner/3.jpg'
-import src4 from '@/assets/banner/4.jpg'
-import src5 from '@/assets/banner/5.jpg'
+import src1 from '@/assets/img/banner/1.jpg'
+import src2 from '@/assets/img/banner/2.jpg'
+import src3 from '@/assets/img/banner/3.jpg'
+import src4 from '@/assets/img/banner/4.jpg'
+import src5 from '@/assets/img/banner/5.jpg'
 
 export default class BannerTest extends Component {
     bannerWidthRef = el => {

@@ -12,7 +12,7 @@ export default class SubMenu extends Component {
         return (
             <div className='submenu-container'>
                 <div className="submenu-show">
-                    <ul className='submenu-ul flex'>
+                    <ul className='submenu-ul'>
                         <li className='submenu-item'>
                             <div className="line"></div>
                             <i className='iconfont icon-shoucang'></i>

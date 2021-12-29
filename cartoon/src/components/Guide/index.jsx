@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './index.css'
-import src1 from '@/assets/guide/1.jpg'
+import src1 from '@/assets/img/guide/1.jpg'
 
 export default class Guide extends Component {
     render() {

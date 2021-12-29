@@ -25,7 +25,7 @@ export default class Peripheral extends Component {
             </div>
         )
         return (
-            <Layout main={main} minWidth={990} mainWidth={710} ></Layout>
+            <Layout main={main} minWidth={990} mainWidth={990} ></Layout>
         )
     }
 }

@@ -1,0 +1,29 @@
+.item {
+    display: inline-block;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2px;
+    text-align: center;
+    margin: 2px;
+    color: #606266;
+    cursor: pointer;
+    background: #f4f4f5;
+
+}
+
+.item.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.current {
+    margin-left: 10px;
+}
+
+.active {
+    border: none;
+    color: #fff;
+    background: #409eff;
+    cursor: auto;
+}
